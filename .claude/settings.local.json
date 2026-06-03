@@ -18,7 +18,8 @@
       "Bash(git -C \"T:\\\\Projects\\\\Claude\" status)",
       "Bash(git -C \"T:\\\\Projects\\\\Claude\" diff)",
       "Bash(git -C \"T:\\\\Projects\\\\Claude\" add .claude/settings.local.json)",
-      "Bash(git -C 'T:\\\\Projects\\\\Claude' commit -m ' *)"
+      "Bash(git -C 'T:\\\\Projects\\\\Claude' commit -m ' *)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude\" log --oneline -5)"
     ]
   }
 }
