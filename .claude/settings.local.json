@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(node -e \"require\\('docx'\\)\")",
+      "Bash(npm install *)",
+      "Bash(node claude_code_tutorial.js)",
+      "Bash(python \"C:\\\\Users\\\\gabyc\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\24a92025-b736-42dd-8f53-da42014be7a7\\\\30580161-6c25-40d3-8b90-9db18fbb481e\\\\skills\\\\docx\\\\scripts\\\\office\\\\validate.py\" \"T:\\\\Projects\\\\Claude\\\\Claude_Code_Expert_Tutorial.docx\")",
+      "Bash(ls \"C:\\\\Users\\\\gabyc\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\24a92025-b736-42dd-8f53-da42014be7a7\\\\30580161-6c25-40d3-8b90-9db18fbb481e\\\\skills\\\\docx\\\\scripts\\\\office\\\\\" 2>&1)",
+      "PowerShell(python \"C:\\\\Users\\\\gabyc\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\24a92025-b736-42dd-8f53-da42014be7a7\\\\30580161-6c25-40d3-8b90-9db18fbb481e\\\\skills\\\\docx\\\\scripts\\\\office\\\\validate.py\" \"T:\\\\Projects\\\\Claude\\\\Claude_Code_Expert_Tutorial.docx\" 2>&1)",
+      "PowerShell($scriptPath = \\(Get-Item \"C:\\\\Users\\\\gabyc\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\24a92025-b736-42dd-8f53-da42014be7a7\\\\30580161-6c25-40d3-8b90-9db18fbb481e\\\\skills\\\\docx\\\\scripts\\\\office\\\\validate.py\"\\).FullName; Write-Output $scriptPath.Length)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
