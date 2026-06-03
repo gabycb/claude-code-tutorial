@@ -11,7 +11,14 @@
       "PowerShell($scriptPath = \\(Get-Item \"C:\\\\Users\\\\gabyc\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\24a92025-b736-42dd-8f53-da42014be7a7\\\\30580161-6c25-40d3-8b90-9db18fbb481e\\\\skills\\\\docx\\\\scripts\\\\office\\\\validate.py\"\\).FullName; Write-Output $scriptPath.Length)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git rm *)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude-reviewer\" status)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude-reviewer\" diff)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude\" status)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude\" diff)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude\" add .claude/settings.local.json)",
+      "Bash(git -C 'T:\\\\Projects\\\\Claude' commit -m ' *)"
     ]
   }
 }
