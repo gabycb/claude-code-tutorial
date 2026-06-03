@@ -19,7 +19,9 @@
       "Bash(git -C \"T:\\\\Projects\\\\Claude\" diff)",
       "Bash(git -C \"T:\\\\Projects\\\\Claude\" add .claude/settings.local.json)",
       "Bash(git -C 'T:\\\\Projects\\\\Claude' commit -m ' *)",
-      "Bash(git -C \"T:\\\\Projects\\\\Claude\" log --oneline -5)"
+      "Bash(git -C \"T:\\\\Projects\\\\Claude\" log --oneline -5)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude\" diff --stat)",
+      "Bash(git -C \"T:\\\\Projects\\\\Claude\" add claude-code-tutorial/index.html .claude/settings.local.json)"
     ]
   }
 }
